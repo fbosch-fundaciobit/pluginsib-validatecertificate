@@ -12,28 +12,6 @@
     <module>afirmacxf</module>
     <module>fake</module>
   </modules>
-  <repositories>
-    <repository>
-      <id>maven-nuxeo</id>
-      <name>Maven Nuxeo Repository</name>
-      <url>https://maven.nuxeo.org/nexus/content/groups/public/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <!-- REQUERIM  MMS Computing & Alfresco  -->
-    <repository>
-      <id>github-governib-maven-repos</id>
-      <name>GitHub GovernIB Maven Repository</name>
-      <url>http://GovernIB.github.io/maven/maven/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.fundaciobit.pluginsib.core</groupId>
@@ -60,6 +38,28 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>maven-nuxeo</id>
+      <name>Maven Nuxeo Repository</name>
+      <url>https://maven.nuxeo.org/nexus/content/groups/public/</url>
+      <layout>default</layout>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </snapshots>
+    </repository>
+    <!-- REQUERIM  MMS Computing & Alfresco  -->
+    <repository>
+      <id>github-governib-maven-repos</id>
+      <name>GitHub GovernIB Maven Repository</name>
+      <url>http://GovernIB.github.io/maven/maven/</url>
+    </repository>
+  </repositories>
   <build>
     <pluginManagement>
       <plugins>
